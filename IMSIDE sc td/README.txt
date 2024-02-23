@@ -9,6 +9,9 @@ Note that in this version in theory multiple tidal constituents can be simulated
 However, the use of multiple tidal constituents in this model has never been tested
 and I am afraid they are not implemented in a physical appropriate way.
 
+Version 4.6: 23-02-2024
+Updated matching conditions at the boundaries of the segments 
+
 ########################################
 Here I explain how to use the code to run the model for the single channel
 
