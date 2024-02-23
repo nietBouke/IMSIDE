@@ -1,4 +1,4 @@
-README network model 4.2
+README network model 4.2 and beyond
 Bouke
 
 ########################################
@@ -9,6 +9,11 @@ Version 4.2.7:  25-01-2024
 Changes: different setup of the analytical equations for tidal salinity
 Also tried to make the code faster, but this did not result in much improvement. 
 It seems like I fixed a small error in the time-dependent simulation, but I am not so sure which I changed. Anyway, small numerical instabilities have disappeared. 
+
+Version 4.3.1: 23-02-2024
+Include different depth for different segments
+Changed (corrected) minus signs for vertical balance, in accordance with the changes done to the single channel code. 
+Also, use average depth at junctions and segment boundaries for the transport at depth. Is an improvement in stability
 
 ########################################
 
