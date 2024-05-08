@@ -15,6 +15,11 @@ Include different depth for different segments
 Changed (corrected) minus signs for vertical balance, in accordance with the changes done to the single channel code. 
 Also, use average depth at junctions and segment boundaries for the transport at depth. Is an improvement in stability
 
+Version 4.3.4: 08-05-2024
+Corrected problems with transport at depth at junctions and boundaries. 
+Also, made an option to set bottom friction to the formulation used in the single channel models 
+Standard choice for theta set to 1. (Backward Euler time integration instead of Crank-Nicolson). This is an improvement in numerical stability. 
+
 ########################################
 
 
