@@ -20,6 +20,13 @@ Corrected problems with transport at depth at junctions and boundaries.
 Also, made an option to set bottom friction to the formulation used in the single channel models 
 Standard choice for theta set to 1. (Backward Euler time integration instead of Crank-Nicolson). This is an improvement in numerical stability. 
 
+Version 4.3.7: 19-08-2024
+Introduced options for turbulence closure. 
+Avoid the problematic behaviour encountered in earlier versions when a channel segment is very short. However, one has to be careful when a channel segment becomes very short. 
+For some turbulence closures, mixing coefficients vary per channel or segment. 
+Model is re-calibrated for the RMD. Agreement in terms of tidal water levels is better, agreement in terms of salinity is comparable to Version 4.3.4
+
+
 ########################################
 
 
