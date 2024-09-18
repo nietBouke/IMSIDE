@@ -610,7 +610,7 @@ def jac_bound_fix(self, key, pars_Q):
         jac[2*self.M+self.mm, 4*self.M+self.mm] = -1/(2*dl[0]) 
 
     elif self.ch_gegs[key]['loc x=0'][0] == 'w':
-        Ttid = func_jac_Tbnd(self, tid_inp, key) 
+        Ttid = func_jac_Tbnd(self, key) 
         if pars_Q[key]>0: #flux is equal to the advective flux through weir
             jac[-3*self.M,-3*self.M] = 3/(2*dl[-1]) * pars['C13d_x=0'] + Ttid[4]
             jac[-3*self.M,-4*self.M] =-4/(2*dl[-1]) * pars['C13d_x=0'] + Ttid[5] 
