@@ -3,10 +3,11 @@
 Welcome to the IMSIDE models.
 IMSIDE: Idealised Model of Salt Intrusion in Deltas and Estuaries
 
-There are three folders here:
+There are four folders here:
 Choose the folder sc ti if you want to do time-independent simulations in a single channel estuary.
 Choose the folder sc td if you want to do time-dependent simulations in a single channel estuary.
 Choose the folder netw  if you want to do time-independent or time-dependent simulations in a estuarine channel network.
+Choose the folder canal if you want to do simulations for a canal that is closed off by the sea with a shipping lock. 
 In these folders, a README file is present which explains how to run the model.
 
 The models use idealised equations of water motion and salinity to calculate the salt intrusion in deltas and estuaries.
