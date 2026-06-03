@@ -16,10 +16,16 @@ Everything is written in the programming language Python.
 
 
 These models are developed as part of the PhD work of Bouke Biemond, 2020-2024 at Utrecht University.
-Contact by email: w.t.biemond@uu.nl
+Contact by email: w.t.biemond@tudelft.nl
 
-Scientific publications with (predecessors of) this software:
+Scientific publications that use (predecessors of) this software:
 Here also a description of the physics and numerics of the model is present.
 https://doi.org/10.1029/2022JC018669
 https://doi.org/10.1029/2023JC019630
 https://doi.org/10.1016/j.ecss.2024.108654
+https://doi.org/10.1038/s43247-024-01225-w
+https://doi.org/10.1029/2024JC021294
+https://doi.org/10.1038/s41467-025-58783-6
+https://doi.org/10.5194/os-21-261-2025
+
+
